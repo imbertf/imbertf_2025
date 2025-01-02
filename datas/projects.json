@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Eascrow",
+    "technologies": ["NextJS", "Stellar SDK", "Soroban"],
+    "description": "Eascrow is an innovative web3 escrow service that harnesses the power of Soroban smart contracts to streamline and secure online transactions. It acts as a trusted intermediary, ensuring that funds are safely held and released according to the terms agreed upon by the involved parties. Our service is essential for various financial dealings, ranging from material goods trade to freelance services.",
+    "tasks": [
+      "In this project, I worked as a frontend Web3 developer. The goal was to connect to the Stellar blockchain and the smart contract developed in Rust.",
+      "The frontend connects to the smart contract via the Stellar SDK and Soroban RPC. Transactions are currently taking place on the Stellar testnet and will soon be deployed on the mainnet.",
+      "Eascrow Decentralised Application is composed of a dashboard that allows customers to track transactions and create an escrow contract"
+    ],
+    "projectLink": "https://eascrow.xyz",
+    "pictures": "eascrow_desktop.png"
+  },
+  {
+    "name": "Kasa",
+    "technologies": ["react", "scss"],
+    "description": "Création d'une application web de location immobilière..."
+  }
+]
