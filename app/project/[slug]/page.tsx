@@ -21,7 +21,7 @@ export default function Page() {
   }
 
   const projectLink = project.projectLink ?? '';
-  const picture = `/images/${project.pictures}`;
+  const picture = project.pictures ? `/images/${project.pictures}` : null;
 
   return (
     <div className="container mx-auto p-4">
@@ -39,14 +39,18 @@ export default function Page() {
       <p className="mt-2 sm:mb-3 md:mb-5 lg:mb-10 md:text-xl">
         {project.description}
       </p>
-      <div className="min-h-80 relative sm:mb-3 md:mb-5 lg:mb-10">
-        <Image
-          src={`${picture}`}
-          alt={project.name}
-          fill
-          className="object-contain"
-        />
-      </div>
+
+      {picture && (
+        <div className="min-h-80 relative sm:mb-3 md:mb-5 lg:mb-10">
+          <Image
+            src={picture}
+            alt={project.name}
+            fill
+            className="object-contain"
+          />
+        </div>
+      )}
+
       <ul className="mt-4 sm:mb-3 md:mb-5 lg:mb-10 space-y-2 md:text-xl">
         {project.tasks?.map((task, index) => (
           <li key={index} className="inline-block">

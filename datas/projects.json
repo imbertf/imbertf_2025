@@ -12,8 +12,15 @@
     "pictures": "eascrow_desktop.png"
   },
   {
-    "name": "Kasa",
-    "technologies": ["react", "scss"],
-    "description": "Création d'une application web de location immobilière..."
+    "name": "NewTechVintage",
+    "technologies": ["Solidity", "Hardhat", "Ethereum"],
+    "description": "New Tech Vintage (NTV) innovates by merging fashion with blockchain technology, creating unique garments authenticated by NFTs. Each piece, linked to an NFT, guarantees unmatched exclusivity and authenticity, while offering unique benefits to holders, such as influence on future collections and access to exclusive events. The clothing also integrates practical and surprising features, such as hidden pockets. NTV stands out by offering an experience where fashion, technology, and art come together to create lasting cultural and artistic value.",
+    "tasks": [
+      "As Smart Contract developer on this project, I was in charge of creating smart contract for the NTV Marketplace and NFT",
+      "I'm using IPFS technologie through Pinata to store NFT metadata",
+      "Smart contracts are deployed on Base Sepolia testnet"
+    ],
+    "projectLink": "https://www.linkedin.com/company/new-tech-vintage",
+    "pictures": ""
   }
 ]
